@@ -1,0 +1,67 @@
+/* "em" är en relativ enhet för att mäta storleken på typsnitt. 
+En "em" motsvarar bredden på bokstaven "m" i det aktuella typsnittet
+och storleken på den aktuella texten."em" är användbart eftersom det gör 
+det lättare att skapa responsiva layouter som anpassar sig efter
+storleken på typsnittet och texten. */
+
+body {
+    background-color: #2b2b2b;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #353535;
+    margin: 5em;
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    color: #ff6347;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #2a2929;
+  }
+
+
+  article {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  section {
+    margin-bottom: 2em;
+    flex: auto;
+  }
+  
+  #markUp {
+    padding: 1em;
+    background-color: #f7d299;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;
+    text-align: center;
+  }
+  .ett  {
+    padding: 1em;
+    background-color: #f1c26b;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  .two  {
+    padding: 1em;
+    background-color: #f8e7c8;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+  }
+  
+  
